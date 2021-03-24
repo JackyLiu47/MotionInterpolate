@@ -6,10 +6,13 @@ Before executing the code, you can check the details of this project in http://b
 for OSX and Linux:
     To run mocaplayer(create a window to show the motions):
     run $./mocaplayer in the command line
+    
     To run interpolators:
     run $./interpolate [skeleton file name].asf [motion file name].amc [l/b] [e/q] [N for keyframe interval] [outfilename].amc
+    
     For example 
-    To interpolate 131_04-dance.amc in bezier SLERP quaternion interpolation with a keyframe interval of 20 and out put to a file called dance_bq.amc, the command line should be:
+    To interpolate 131_04-dance.amc in bezier SLERP quaternion interpolation with a keyframe interval of 20 and out put to a file called dance_bq.amc：
+    
     $./interpolate 131_dance.asf 131_04-dance.amc b q 20 dance_bq.amc
 ```
 ### What have I done
